@@ -1,0 +1,480 @@
+@font-face {
+    font-family: Athelas;
+    src: url(fonts/Athelas-Bold.ttf);
+}
+
+@font-face {
+    font-family: AvenirNext;
+    src: url(fonts/AvenirNextLTPro-Regular.otf);
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Athelas;
+}
+
+
+.header .bg-img{
+    position: absolute;
+    width: 100%;
+}
+
+.header .bg-wave{
+    position: absolute;
+    width: 100%;
+    margin-top: 502px;
+}
+
+.header .navbar{
+    padding-top: 32px;
+    padding-left: 52px;
+}
+
+.header .navbar-nav{
+    margin-left: 43px;
+}
+
+.header .nav-item{
+    margin-right: 14px;
+}
+
+.header .nav-link{
+    font-family: AvenirNext;
+    font-size: 14px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.21;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000000;
+}
+
+.header .dropdown-item{
+    font-family: AvenirNext;
+    font-size: 14px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.21;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000000;
+}
+
+.header .dropdown-menu{
+    background: transparent;
+    border: none;
+}
+
+.header .login-link{
+    background: transparent;
+    border-radius: 25px;
+    text-align: center;
+    border: 1px solid #3e52ce;
+    text-decoration-line: none;
+    padding: 5px 25px;
+    margin-left: 520px;
+}
+
+.header .login-link span{
+    font-family: AvenirNext;
+    font-size: 14px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.21;
+    letter-spacing: normal;
+    color: #3e52ce;
+    
+}
+
+.header .text-box{
+    z-index: 1;
+    width: 49%;
+    margin-top: 200px;
+    margin-right: 80px;
+}
+
+.header .text-box h2{
+    font-size: 51px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.18;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000000;
+}
+
+.header .edu-bg-img{
+    position: absolute;
+    margin-top: -68px;
+    z-index: -1;
+    margin-left: -22px;
+}
+
+.header .text-box p{
+    opacity: 0.5;
+    font-family: AvenirNext;
+    font-size: 16px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.56;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000000;
+    margin: 20px 0px 20px 0px;
+ }
+
+.header .apply{
+    background-color: #3e52ce;
+    border-radius: 50px;
+    text-align: center;
+    text-decoration-line: none;
+    padding: 12px 30px;
+    margin-right: 20px;
+}
+
+.header .apply span{
+    font-family: AvenirNext;
+    font-size: 14px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.21;
+    letter-spacing: normal;
+    color: white;
+    
+}
+
+.header .cards{
+    margin-top: 75px;
+    margin-right: -85px;
+}
+
+.header .card{
+    width: 75%;
+    padding: 28px 50px 12px 45px;
+    overflow: hidden;
+    border-radius: 18px;
+    margin-bottom: 25px;
+    box-shadow: 0 0 16px 0 rgba(0, 0, 0, 0.18);
+}
+
+.header .card-img{
+    width: 30%;
+    margin-top: -27px;
+    margin-left: 269px;
+    position: absolute;
+}
+
+.header .card-text{
+    width: 88%;
+    margin-left: -15px;
+}
+
+.header .card-title{
+    font-family: Athelas;
+    font-size: 22px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.27;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000000;
+}
+
+.header .card-psg{
+    font-family: AvenirNext;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.57;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000000;
+}
+
+.header .card-link{
+    font-family: AvenirNext;
+    font-size: 14px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1;
+    letter-spacing: normal;
+    text-align: left;
+    color: #3e52ce;
+    text-decoration-line: underline;
+}
+
+/* section statics */
+
+.statics{
+    margin-top: 70px;
+}
+
+.statics .statics-title{
+    font-family: Athelas;
+    font-size: 23px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.65;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000000;
+    text-align: center;
+}
+
+.statics .rectangle{
+    border-radius: 65px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.08);
+    width: 77%;
+    margin: 35px 160px 80px 160px;
+}
+
+
+
+.statics .statics-num{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0 20px 0;
+}
+
+.statics .ver-line{
+    color: #dededd;
+    border: 1px solid;
+    width: 0px;
+    margin: 20px;
+}
+
+.statics .number{
+    font-family: AvenirNext;
+    font-size: 24px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2.04;
+    letter-spacing: normal;
+    text-align: center;
+    color: #a3ceff;
+}
+
+.statics .number-text{
+    font-family: AvenirNext;
+    font-size: 15px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1;
+    letter-spacing: normal;
+    text-align: center;
+    color: #aaaaaa;
+}
+
+/* section-payment */
+
+.payment .container{
+    border-radius: 28px;
+    background-color: #eff6ff;
+    display: flex;
+    margin-bottom: 100px;
+}
+
+.payment .text-box-1{
+    width: 34%;
+    margin: 80px 30px 60px 40px;
+}
+
+.payment .title-1{
+    font-family: Athelas;
+    font-size: 35px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.34;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000000;
+    position: relative;
+    z-index: 1;
+}
+
+.payment .gq-bg-img{
+    position: absolute;
+    z-index: 0;
+    margin-top: -55px;
+    margin-left: 178px;
+}
+
+.payment .text-box-1 p{
+    font-family: AvenirNext;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #676767;
+    margin-top: 20px;
+}
+
+.payment .text-box-1 span{
+    font-family: AvenirNext;
+    font-weight: bold;
+    color: #000000;
+}
+
+.payment .text-box-2{
+    background-color: white;
+    margin-top: 63px;
+    position: absolute;
+    margin-left: 450px;
+    padding: 20px 0px 50px 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 12px 0 rgba(0, 0, 0, 0.08);
+}
+
+.payment .title-2{
+    font-family: Athelas;
+    font-size: 20px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.45;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000000;
+}
+
+.payment .text-box-2 h5{
+    font-family: AvenirNext;
+    font-size: 14px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.71;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffffff;
+    border: 1px solid;
+    background-color: #d34141;
+    text-align: center;
+    margin-right: 82px;
+    padding: 5px 10px 5px 10px;
+}
+
+.payment .check-list{
+    margin-left: 10px;
+}
+
+.payment .check-list-item{
+    margin-left: 10px;
+    margin-top: 3px;
+}
+
+.payment .check-list-item{
+    font-family: AvenirNext;
+    font-size: 13px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.46;
+    letter-spacing: normal;
+    text-align: left;
+    color: #dd2e44;
+}
+
+.payment .check-list-item span{
+    font-family: AvenirNext;
+    color: #3e52ce;
+    font-size: 13px;
+
+}
+
+
+.payment .cross-img{
+    object-fit: contain;
+}
+
+.payment .text-box-3{
+    margin-top: 63px;
+    position: absolute;
+    margin-left: 800px;
+    padding: 20px 20px 50px 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 12px 0 rgba(0, 0, 0, 0.08);
+    background-color: white;
+}
+
+.payment .title-3{
+    font-family: Athelas;
+    font-size: 20px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.45;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000000;
+}
+
+.payment .text-box-2 span{
+    font-family: AvenirNext;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #3e52ce;
+    margin-top: 20px;
+    font-size: 13px;
+}
+
+.payment .text-box-3 h5{
+    border: 1px solid;
+    background-color: #3ec381;
+    text-align: center;
+    margin-right: 82px;
+    padding: 5px 10px 5px 10px;
+    font-family: AvenirNext;
+    font-size: 14px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.71;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffffff;
+}
+
+.payment .apply-1{
+    border-radius: 50px;
+    text-align: center;
+    text-decoration-line: none;
+    padding: 8px 15px;
+    margin-right: 20px;
+    background-color: #3e52ce;
+}
+
+.payment .apply-1 span{
+    font-family: AvenirNext;
+    font-size: 12px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 0.92;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+}
