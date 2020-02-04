@@ -462,7 +462,7 @@
     border-radius: 50px;
     text-align: center;
     text-decoration-line: none;
-    padding: 8px 15px;
+    padding: 8px 30px;
     margin-right: 20px;
     background-color: #3e52ce;
 }
@@ -478,3 +478,166 @@
     text-align: center;
     color: #ffffff;
 }
+
+/* section-enrollment */
+
+.enrollment{
+    margin-top: 250px;
+
+}
+
+.enrollment .text{
+    margin-right: 105px;
+}
+
+.enrollment .text h2{
+    font-family: Athelas;
+    font-size: 35px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.34;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000000;
+}
+
+.enrollment .text p{
+    font-family: AvenirNext;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #676767;
+}
+
+
+.enrollment .tab {
+    float: right;
+    width: 30%;
+    margin-right: 60px;
+  }
+
+  .enrollment .tab-container{
+    position: absolute;
+    margin-bottom: 150px;
+  }
+  
+.enrollment  .tab button {
+    display: block;
+    background-color: inherit;
+    color: black;
+    padding: 22px 16px;
+    width: 100%;
+    border: none;
+    outline: none;
+    text-align: left;
+    cursor: pointer;
+}
+
+  
+.enrollment  .tab button.active {
+    background-image: url(img/tab-active-img.svg);
+    background-repeat: no-repeat;
+    color: #3e52ce;
+
+}
+  
+.enrollment  .tabcontent {
+    float: left;
+    padding: 0px 12px;
+    width: 70%;
+    border-left: none;
+}
+
+.enrollment .tablinks span{
+    font-family: AvenirNext;
+    font-size: 14px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 0.92;
+    letter-spacing: normal;
+    text-transform: uppercase;
+    color: #ddd;
+}
+
+.enrollment .tablinks span.active {
+    color: #3e52ce;
+}
+
+.enrollment .tablinks h5{
+    font-family: AvenirNext;
+    font-size: 18px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 0.92;
+    letter-spacing: normal;
+    color: #000000;
+}
+
+.enrollment .tablinks .dot{
+    border: 3px solid;
+    color: #ddd;
+    width: 25px;
+    height: 25px;
+    border-radius: 60%;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.enrollment .tablinks .dot.active{
+    color: #3e52ce;
+
+}
+
+.enrollment .circle-1{
+    margin: 75px 238px;
+    position: absolute;
+}
+
+.enrollment .circle-2{
+    margin: 25px 190px;
+}
+
+.enrollment  .screen-bg{
+    width: 37%;
+    height: 680px;
+    position: absolute;
+    margin-left: 280px;
+    margin-top: -660px;
+    background-color: white;
+    box-shadow: 0 0 12px 0 rgba(0, 0, 0, 0.08);
+    border-radius: 25px;
+}
+
+.enrollment .screenshot{
+    position: absolute;
+    margin: -623px 300px;
+}
+
+.enrollment .screen-btn{
+    position: absolute;
+    margin: -30px 410px;
+    width: 50px;
+    height: 15px;
+    background-color: white;
+    border-radius: 50px;
+    padding: 12px 38px;
+    box-shadow: 0 0 12px 0 rgba(0, 0, 0, 0.08);
+}
+
+.enrollment .circle-group{
+    margin-left: 640px;
+    margin-top: -112px;
+}
+
+.enrollment .circle-group-1{
+    margin-top: -90px;
+    margin-left: 190px;
+}
+
