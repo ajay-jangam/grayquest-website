@@ -809,3 +809,172 @@
 .slick-dots li.slick-active button {
     background-color: #3e52ce
 }
+
+/* testimonial */
+
+.testimonial{
+    margin-top: 200px;
+    margin-bottom: 100px;
+}
+
+.testimonial .testimonial-text{
+    text-align: center;
+}
+
+.testimonial .title{
+    font-family: Athelas;
+    font-size: 35px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.43;
+    letter-spacing: normal;
+    color: #000000;
+}
+
+.testimonial .sub-title{
+    font-family: AvenirNext;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    color: #676767;
+}
+
+.testimonial .testimonial-tab{
+    margin-top: 50px;
+}
+
+.testimonial .nav{
+    display: flex;
+    justify-content: space-evenly;
+    border-bottom: none;
+    width: 60%;
+    margin: 0 auto;
+}
+
+.testimonial .nav-item{
+    border: none;
+    font-family: AvenirNext;
+    font-size: 16px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: center;
+    color: #838383;
+}
+
+.testimonial .nav-item.active{
+    font-family: AvenirNext;
+    font-size: 16px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: center;
+    color: #3e52ce;
+    border-bottom: 3px solid;
+}
+
+.testimonial .nav-item:hover{
+    font-family: AvenirNext;
+    font-size: 16px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: center;
+    color: #3e52ce;
+    border-bottom: 3px solid;
+}
+
+.testimonial .tab-content{
+    width: 95%;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.testimonial .tab-pane{
+    background-color: #ffd74e;
+    border-radius: 24px;
+    padding-bottom: 75px;
+}
+
+.testimonial .qoute{
+    width: 5%;
+    margin: 0 auto;
+    margin-top: 50px;
+
+}
+
+.testimonial .text{
+    text-align: center;
+}
+
+.testimonial .bg-wave{
+    position: absolute;
+    width: 14%;
+    margin-top: -256px;
+}
+
+.testimonial .profile-bg{
+    position: absolute;
+    margin-left: 500px;
+    margin-top: 66px;
+    z-index: -1;
+}
+
+.testimonial .profile{
+    width: 19%;
+    display: flex;
+    margin-top: 75px;
+    margin-left: 531px;
+}
+
+.testimonial .profile-pic{
+    border-radius: 50%;
+    margin-right: 25px;
+}
+
+.testimonial .name{
+    margin-top: 10px;
+}
+
+.testimonial .place{
+    position: absolute;
+    margin-top: 45px;
+    margin-left: 100px;
+}
+
+
+.testimonial .slick-dots{
+    position: absolute;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    margin-left: 624px;
+    margin-top: 45px;
+}
+
+.testimonial .slick-dots li{
+    width: 20px;
+    font-size: 0;
+}
+
+.testimonial .slick-dots button{
+    height: 12px;
+    width: 12px;
+    border-radius: 100%;
+    color: #dddddd;
+    border: none;
+}
+
+.slick-dots li.slick-active button {
+    background-color: #fff
+}

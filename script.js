@@ -37,3 +37,67 @@ $(document).ready(function(){
 });
 
 // slick-slider-1
+  
+// slick-slider-2
+
+$(document).ready(function(){
+  $('.delhi-slider').slick({
+      slidesToShow: 1,
+      infinite: true,
+      speed: 500,
+      dots: true,
+      autoplay: true,
+      nextArrow: ('.next'),
+      prevArrow: ('.prev'),
+  });
+});
+
+// slick-slider-2
+  
+// slick-slider-3
+
+$(document).ready(function(){
+  $('.mumbai-slider').slick({
+      slidesToShow: 1,
+      infinite: true,
+      speed: 500,
+      dots: true,
+      autoplay: true,
+      nextArrow: ('.next'),
+      prevArrow: ('.prev'),
+  });
+});
+
+// slick-slider-3
+  
+// slick-slider-4
+
+$(document).ready(function(){
+  $('.old-mery-slider').slick({
+      slidesToShow: 1,
+      infinite: true,
+      speed: 500,
+      dots: true,
+      autoplay: true,
+      nextArrow: ('.next'),
+      prevArrow: ('.prev'),
+  });
+});
+
+// slick-slider-4
+  
+// slick-slider-5
+
+$(document).ready(function(){
+  $('.xaviers-slider').slick({
+      slidesToShow: 1,
+      infinite: true,
+      speed: 500,
+      dots: true,
+      autoplay: true,
+      nextArrow: ('.next'),
+      prevArrow: ('.prev'),
+  });
+});
+
+// slick-slider-5
