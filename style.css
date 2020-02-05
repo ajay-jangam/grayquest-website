@@ -542,8 +542,6 @@
 .enrollment  .tab button.active {
     background-image: url(img/tab-active-img.svg);
     background-repeat: no-repeat;
-    color: #3e52ce;
-
 }
   
 .enrollment  .tabcontent {
@@ -556,16 +554,17 @@
 .enrollment .tablinks span{
     font-family: AvenirNext;
     font-size: 14px;
-    font-weight: 600;
+    font-weight: bold;
     font-stretch: normal;
     font-style: normal;
-    line-height: 0.92;
+    line-height: 1.57;
     letter-spacing: normal;
-    text-transform: uppercase;
+    text-align: left;
     color: #ddd;
+    text-transform: uppercase;
 }
 
-.enrollment .tablinks span.active {
+.enrollment .tablinks span:active {
     color: #3e52ce;
 }
 
@@ -590,9 +589,8 @@
     margin-right: 10px;
 }
 
-.enrollment .tablinks .dot.active{
+.enrollment .tablinks .dot:active{
     color: #3e52ce;
-
 }
 
 .enrollment .circle-1{
@@ -641,3 +639,173 @@
     margin-left: 190px;
 }
 
+.enrollment .apply-2{
+    border: 2px solid #3e52ce;
+    border-radius: 50px;
+    text-align: center;
+    text-decoration-line: none;
+    padding: 8px 30px;
+    margin-right: 20px;
+    color: #fff;
+}
+
+.enrollment .apply-2 span{
+    font-family: AvenirNext;
+    font-size: 12px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 0.92;
+    letter-spacing: normal;
+    text-align: center;
+    color: #3e52ce;
+}
+
+.enrollment .apply-2:hover{
+    background-color: #3e52ce;
+    
+}
+
+.enrollment .apply-2 span:hover{
+    color: #fff;
+}
+
+/* section-membership */
+
+.membership{
+    margin-top: 980px;
+    background: linear-gradient(131deg, #f1ab2fbd, #7ce4eb);
+    padding-top: 100px;
+    padding-bottom: 280px;
+}
+
+.membership .member-text{
+    text-align: center;
+}
+
+.membership .title{
+    font-family: Athelas;
+    font-size: 35px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.57;
+    letter-spacing: normal;
+    text-align: center;
+    color: #000000;
+}
+
+.membership .gq-bg{
+    position: absolute;
+    margin-top: -60px;
+    z-index: -1;
+    margin-left: -218px;
+}
+
+.membership .pasg{
+    opacity: 0.75;
+    font-family: AvenirNext;
+    font-size: 16px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: center;
+    color: #000000;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.membership .about-gq{
+    font-family: AvenirNext;
+    font-size: 14px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: center;
+    color: #fff;
+    background-color: #3e52ce;
+    display: block;
+    border-radius: 50px;
+    text-align: center;
+    text-decoration-line: none;
+    padding: 8px 30px;
+    width: 20%;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+.membership .about-gq:hover{
+    background-color: #2037be;
+}
+
+.membership .limited{
+    font-family: AvenirNext;
+    font-size: 12px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2;
+    letter-spacing: normal;
+    text-align: left;
+    color: #5f679b;
+    text-align: center;
+}
+
+.membership .slick-slider{
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.membership .slick-items{
+    width: 44%;
+    margin-left: 410px;
+    margin-top: -10px;
+    position: absolute;
+}
+
+.membership .slick-prev{
+    display: none;
+}
+
+.membership .slick-next{
+    display: none;
+}
+
+.membership .slick-item{
+    border-radius: 24px;
+    margin-top: 20px;
+    box-shadow: 0 0 12px 0 rgba(0, 0, 0, 0.08);
+
+}
+
+.membership .slick-dots{
+    display: flex;
+    position: absolute;
+    margin-left: 565px;
+    margin-top: -200px;
+    flex-direction: column;
+}
+
+.membership .slick-dots li{
+    width: 20px;
+    font-size: 0;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.membership .slick-dots button{
+    height: 12px;
+    width: 12px;
+    border-radius: 100%;
+    color: #fff;
+    border: none;
+}
+
+.slick-dots li.slick-active button {
+    background-color: #3e52ce
+}

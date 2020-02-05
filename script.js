@@ -21,3 +21,19 @@ function openCity(evt, cityName) {
 
 document.getElementById("defaultOpen").click();
   
+// slick-slider-1
+
+$(document).ready(function(){
+  $('.slick-items').slick({
+      slidesToShow: 1,
+      infinite: true,
+      speed: 500,
+      dots: true,
+      autoplay: true,
+      vertical: true,
+      nextArrow: ('.next'),
+      prevArrow: ('.prev'),
+  });
+});
+
+// slick-slider-1
