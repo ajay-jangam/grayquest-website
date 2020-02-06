@@ -1148,3 +1148,375 @@
 .institute .institute-img{
     margin-top: 65px;
 }
+
+    /* A n Q */
+
+.a-n-q{
+    margin-bottom: 75px;
+    background-color: #f8f8f8;
+    padding: 75px 0 75px 0;
+}
+
+.a-n-q .title{
+    font-family: Athelas;
+    font-size: 35px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.43;
+    letter-spacing: normal;
+    text-align: center;
+    color: #000000;
+}
+
+.a-n-q .sub-title{
+    font-family: AvenirNext;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: center;
+    color: #676767;
+    margin-bottom: 50px;
+}
+
+.a-n-q .question{
+    display: flex;
+    justify-content: space-between;
+}
+
+.a-n-q .anq-list{
+    width: 60%;
+    margin: 0 auto;
+}
+
+.a-n-q .list-item{
+    border-bottom: 2px solid #d2cece;
+    margin-bottom: 30px;
+}
+
+.a-n-q .qsn{
+    font-family: AvenirNext;
+    font-size: 20px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.55;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000000;
+}
+.a-n-q .outer{
+    border-radius: 100px;
+    border: 2px solid #3e52ce;
+    width: 31px;
+    height: 31px;
+    text-align-last: center;
+    cursor: pointer;
+}
+
+.a-n-q .ans{
+    font-family: AvenirNext;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.56;
+    letter-spacing: normal;
+    text-align: left;
+    color: #676767;
+    margin-bottom: 30px;
+}
+
+.a-n-q .help{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    text-decoration-line: none;
+}
+
+.a-n-q .help span{
+    border-radius: 60px;
+    border: 2px solid #3e52ce;
+    font-family: AvenirNext;
+    font-size: 14px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1;
+    letter-spacing: normal;
+    text-align: center;
+    color: #3e52ce;
+    padding: 10px 30px;
+}
+
+.a-n-q .help span:hover{
+    background-color: #3e52ce;
+    color: #fff;
+}
+
+/* apply */
+
+.apply-section{
+    margin-top: 100px;
+}
+
+.apply-section .bg-wave{
+    position: absolute;
+    width: 100%;
+    z-index: -1;
+}
+
+.apply-section .container{
+    display: flex;
+    background-color: #fff6d6;
+    z-index: -2;
+    padding-bottom: 204px;
+    border-radius: 24px;
+}
+
+.apply-section .bg-wave{
+    position: absolute;
+    width: 100%;
+    z-index: 0;
+    margin-top: -100px;
+    margin-bottom: 50px;
+}
+
+.apply-section .main-img{
+    position: absolute;
+    z-index: 2;
+    margin-left: 120px;
+    margin-top: -43px;
+}
+
+.apply-section .text{
+    width: 52%;
+    margin-left: 350px;
+    display: block;
+    text-align-last: center;
+    position: absolute;
+    margin-top: 50px;
+}
+
+.apply-section .ready-bg{
+    position: absolute;
+    z-index: 0;
+    margin-left: 200px;
+}
+
+.apply-section .title{
+    position: absolute;
+    margin-bottom: 20px;
+    font-family: Athelas;
+    font-size: 31px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.26;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000000;
+}
+
+.apply-section .apply-now{
+    text-decoration-line: none;
+}
+
+.apply-section .apply-now span{
+    border-radius: 60px;
+    padding: 15px 35px;
+    margin-right: 20px;
+    font-family: AvenirNext;
+    font-size: 14px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1;
+    letter-spacing: normal;
+    text-align: center;
+    color: #fff;
+    background-color: #3e52ce;
+    margin-top: 70px;
+    position: absolute;
+}
+
+.apply-section .apply-now span:hover{
+    background-color: #2037be;
+}
+
+.apply-section .google-play-btn{
+    margin-top: 60px;
+    margin-left: 150px;
+}
+
+/* footer */
+
+.footer{
+    background-color: #4b5cc1;
+    margin-top: 75px;
+    padding: 50px 100px 0px 100px;
+}
+
+.footer .footer-list{
+    display: flex;
+    border-bottom: 2px solid #aab6ff;
+}
+
+.footer .about{
+    width: 45%;
+    margin-right: 50px;
+}
+
+.footer .about-psg{
+    font-family: AvenirNext;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.71;
+    letter-spacing: normal;
+    text-align: left;
+    color: #c6ceff;
+    margin-top: 15px;
+}
+
+.footer .footer-store-link{
+    margin-left: -12px;
+}
+
+.footer .socials{
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.footer .fb-link{
+    margin-right: 20px;
+}
+
+.footer .company{
+    width: 15%;
+    margin-right: 50px;
+}
+
+.footer .title{
+    font-family: AvenirNext;
+    font-size: 14px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.86;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.footer .company-link{
+    text-decoration-line: none;
+    margin-bottom: -10px;
+    display: block;
+}
+
+.footer .company-link span{
+    font-family: AvenirNext;
+    font-size: 16px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.19;
+    letter-spacing: normal;
+    text-align: left;
+    color: #aab6ff;
+}
+
+.footer .for-partners{
+    width: 17%;
+    margin-right: 50px;
+}
+
+.footer .partner-link span{
+    font-family: AvenirNext;
+    font-size: 14px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.36;
+    letter-spacing: normal;
+    text-align: left;
+    color: #aab6ff;
+}
+
+.footer .in-touch{
+    width: 35%;
+    margin-right: 50px;
+}
+
+.footer .touch-item{
+    font-family: AvenirNext;
+    font-size: 14px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.79;
+    letter-spacing: normal;
+    text-align: left;
+    color: #aab6ff;
+}
+
+.footer .touch-item span{
+    font-weight: bold;
+}
+
+.footer .address{
+    width: 30%;
+}
+
+.footer .address-item{
+    font-family: AvenirNext;
+    font-size: 14px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.79;
+    letter-spacing: normal;
+    text-align: left;
+    color: #aab6ff;
+}
+
+.footer .terms-n-policy{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer .copy-right{
+    font-family: AvenirNext;
+    font-size: 13px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2;
+    letter-spacing: normal;
+    text-align: left;
+    color: #8495ff;
+}
+
+.footer .term-link{
+    text-decoration-line: none;
+}
+
+.footer .term-link span{
+    font-family: AvenirNext;
+    font-size: 13px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2;
+    letter-spacing: normal;
+    text-align: left;
+    color: #8495ff;
+    margin-right: 10px;
+}
