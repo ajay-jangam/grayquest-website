@@ -542,6 +542,15 @@
 .enrollment  .tab button.active {
     background-image: url(img/tab-active-img.svg);
     background-repeat: no-repeat;
+    /* animation: fadeInLeft 2s timing-function delay iteration-count direction fill-mode; */
+}
+
+.enrollment .tab-active-bg {
+    position: absolute;
+    z-index: -1;
+    display: flex;
+    align-self: center;
+    margin-left: -15px;
 }
   
 .enrollment  .tabcontent {
@@ -564,7 +573,7 @@
     text-transform: uppercase;
 }
 
-.enrollment .tablinks span:active {
+.enrollment .tablinks.active span {
     color: #3e52ce;
 }
 
@@ -587,6 +596,11 @@
     border-radius: 60%;
     margin-top: 10px;
     margin-right: 10px;
+}
+
+.enrollment .tablinks.active .dot{
+    border-style: double;
+    background-color: #3e52ce;
 }
 
 .enrollment .tablinks .dot:active{
@@ -1182,22 +1196,25 @@
     margin-bottom: 50px;
 }
 
-.a-n-q .question{
+.a-n-q .card{
+    border: none;
+    background-color: #f8f8f8;
+    
+}
+
+.a-n-q .card-header{
     display: flex;
-    justify-content: space-between;
-}
-
-.a-n-q .anq-list{
-    width: 60%;
+    align-items: center;
+    width: 65%;
     margin: 0 auto;
+    background-color: #f8f8f8;
+    justify-content: space-between;
+    border-bottom: 3px solid #ddd;
+    
 }
 
-.a-n-q .list-item{
-    border-bottom: 2px solid #d2cece;
-    margin-bottom: 30px;
-}
 
-.a-n-q .qsn{
+.a-n-q .accordion h2{
     font-family: AvenirNext;
     font-size: 20px;
     font-weight: 600;
@@ -1207,7 +1224,11 @@
     letter-spacing: normal;
     text-align: left;
     color: #000000;
+    
 }
+
+
+
 .a-n-q .outer{
     border-radius: 100px;
     border: 2px solid #3e52ce;
@@ -1217,7 +1238,12 @@
     cursor: pointer;
 }
 
-.a-n-q .ans{
+.a-n-q .card-body{
+    width: 65%;
+    margin: 0 auto;
+}
+
+.a-n-q .accordion p{
     font-family: AvenirNext;
     font-size: 16px;
     font-weight: normal;
@@ -1227,7 +1253,6 @@
     letter-spacing: normal;
     text-align: left;
     color: #676767;
-    margin-bottom: 30px;
 }
 
 .a-n-q .help{

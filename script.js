@@ -101,3 +101,39 @@ $(document).ready(function(){
 });
 
 // slick-slider-5
+
+
+// Q-n-A
+
+$(document).ready(function(){
+  $(".ans").hide();
+});
+
+$(document).ready(function(){
+  $("#outer1").click(function(){
+    $("#ans1").slideToggle("slow");
+  });
+});
+
+
+$(document).ready(function(){
+  $("#outer2").click(function(){
+    $("#ans2").slideToggle("slow");
+  });
+});
+
+
+$(document).ready(function(){
+  $("#outer3").click(function(){
+    $("#ans3").slideToggle("slow");
+  });
+});
+
+
+$(document).ready(function(){
+  $("#outer4").click(function(){
+    $("#ans4").slideToggle("slow");
+  });
+});
+
+// Q-n-A

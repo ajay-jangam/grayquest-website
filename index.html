@@ -13,6 +13,7 @@
 
     <!-- style -->
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="animate.css">
     <!-- style -->
 
     <!-- slick-slider -->
@@ -180,6 +181,8 @@
     </section>
     
     <!-- section-statics-end -->
+
+
     <!-- section-payment-start -->
 
     <section class="payment">
@@ -319,6 +322,8 @@
 
                 <button class="tablinks d-flex" onclick="openCity(event, 'step-1')" id="defaultOpen">  
                     
+                    <!-- <div class="tab-active-bg"><img src="img/tab-active-img.svg" alt="" class="tab-active-img wow fadeInLeft"></div> -->
+
                     <div>
                         <div class="dot"></div>
                     </div>
@@ -1077,64 +1082,76 @@
 
         <p class="sub-title">What our customer have to say about us!</p>
 
-        <div class="anq-list">
-
-            <div class="list-item">
-
-                <div class="question">
-    
-                    <h4 class="qsn">Am I eligible for a loan?</h4>
-        
-                    <div class="outer"> <img src="img/plus.svg" alt="" class="plus"> </div>
-    
-                </div>
-
-                <p class="ans">Your child has to b 18+ to be eligible for a loan. We hope you have your Aadhaar, Pan and many other details for applying</p>
+        <div class="accordion" id="accordionExample">
+            <div class="card">
+              <div class="card-header" id="headingOne">
+                <h2 class="mb-0">
+                    Am I eligible for a loan?
+                </h2>
+                  <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    <div class="outer" id="outer1"> <img src="img/plus.svg" alt="" class="plus"> </div>
+                  </button>
+              </div>
           
+              <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                <div class="card-body">
+                   <p> Your child has to b 18+ to be eligible for a loan. We hope you have your Aadhaar, Pan and many other details for applying. </p> 
+                </div>
+              </div>
             </div>
 
-            <div class="list-item">
+            <div class="card">
+              <div class="card-header" id="headingTwo">
+                <h2 class="mb-0">
+                    What do I do if my institute is not listed?
+                </h2>
+                  <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    <div class="outer" id="outer1"> <img src="img/plus.svg" alt="" class="plus"> </div>
 
-                <div class="question">
-    
-                    <h4 class="qsn">What do I do if my institute is not listed?</h4>
-        
-                    <div class="outer"> <img src="img/plus.svg" alt="" class="plus"> </div>
-    
+                  </button>
+              </div>
+              <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                <div class="card-body">
+                    <p> Your child has to b 18+ to be eligible for a loan. We hope you have your Aadhaar, Pan and many other details for applying. </p> 
+
                 </div>
-
-                <p class="ans">Your child has to b 18+ to be eligible for a loan. We hope you have your Aadhaar, Pan and many other details for applying</p>
-          
+              </div>
             </div>
 
-            <div class="list-item">
-
-                <div class="question">
-    
-                    <h4 class="qsn">Am I eligible for a loan?</h4>
-        
-                    <div class="outer"> <img src="img/plus.svg" alt="" class="plus"> </div>
-    
+            <div class="card">
+              <div class="card-header" id="headingThree">
+                <h2 class="mb-0">
+                    Am I eligible for a loan?
+                </h2>
+                  <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    <div class="outer" id="outer1"> <img src="img/plus.svg" alt="" class="plus"> </div>
+                  </button>
+              </div>
+              <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                <div class="card-body">
+                    <p> Your child has to b 18+ to be eligible for a loan. We hope you have your Aadhaar, Pan and many other details for applying. </p> 
                 </div>
-
-                <p class="ans">Your child has to b 18+ to be eligible for a loan. We hope you have your Aadhaar, Pan and many other details for applying</p>
-          
+              </div>
             </div>
 
-            <div class="list-item">
-
-                <div class="question">
-    
-                    <h4 class="qsn">What do I do if my institute is not listed?</h4>
-        
-                    <div class="outer"> <img src="img/plus.svg" alt="" class="plus"> </div>
-    
+            <div class="card">
+              <div class="card-header" id="headingFour">
+                <h2 class="mb-0">
+                    What do I do if my institute is not listed?
+                </h2>
+                  <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                    <div class="outer" id="outer1"> <img src="img/plus.svg" alt="" class="plus"> </div>
+                  </button>
+              </div>
+              <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
+                <div class="card-body">
+                    <p> Your child has to b 18+ to be eligible for a loan. We hope you have your Aadhaar, Pan and many other details for applying. </p> 
                 </div>
-
-                <p class="ans">Your child has to b 18+ to be eligible for a loan. We hope you have your Aadhaar, Pan and many other details for applying</p>
-          
+              </div>
             </div>
+          </div>
 
+ 
             <a href="#" class="help"> <span>Need more help?</span> </a>
 
     </section>
@@ -1275,6 +1292,10 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/95007905b2.js" crossorigin="anonymous"></script>
     <!-- boostrap script -->
+
+    <!-- wow-script -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.js"></script>
+    <!-- wow-script -->
 
     <!-- slick-script -->
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
